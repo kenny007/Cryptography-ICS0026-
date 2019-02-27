@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneTimePad", "OneTimePad\OneTimePad.csproj", "{9248CCB1-195B-46E7-84E5-7EFB21D8D229}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigenereCipher", "VigenereCipher\VigenereCipher.csproj", "{929E7DBC-71CF-4C7A-9F7D-26B278D208E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyTimePad", "ManyTimePad\ManyTimePad.csproj", "{424490C4-152D-46DE-96CD-ECE32799BB4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9248CCB1-195B-46E7-84E5-7EFB21D8D229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9248CCB1-195B-46E7-84E5-7EFB21D8D229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9248CCB1-195B-46E7-84E5-7EFB21D8D229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929E7DBC-71CF-4C7A-9F7D-26B278D208E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929E7DBC-71CF-4C7A-9F7D-26B278D208E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929E7DBC-71CF-4C7A-9F7D-26B278D208E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929E7DBC-71CF-4C7A-9F7D-26B278D208E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424490C4-152D-46DE-96CD-ECE32799BB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424490C4-152D-46DE-96CD-ECE32799BB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424490C4-152D-46DE-96CD-ECE32799BB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424490C4-152D-46DE-96CD-ECE32799BB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
