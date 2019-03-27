@@ -29,8 +29,8 @@ namespace ManyTimePad
             //Just converting some part of these strings to char.
             string ct;
             char ctChar;
-            ct = cipherText[ctNumber].Substring(pos * 2, 2);
-            ctChar = (char)stoul(ct, nullptr, 16);
+            ct = cipherText[ctNumber].Substring(pos * 2, 1);
+            ctChar = Convert.ToChar(ct);
             return ctChar;
         }
 
@@ -39,7 +39,7 @@ namespace ManyTimePad
         {
             string[] ct = new string[11];
             char[] ctChar = new char[11];
-            char keyLetter = ' ';
+            char keyLetter = '|';
             char[,] ctXor = new char[11, 11];
             for (int ctNumber = 0; ctNumber< 11; ctNumber++)
             {
@@ -76,7 +76,7 @@ namespace ManyTimePad
                 if (valid) //If a space in some message convert other messages to [a-zA-Z].
                     keyLetter = (char)(ctChar[i] ^ (int)' '); //We can use that message to get a letter of the key.
             }
-            return keyLetter; //Otherwise return 255 as a default.
+            return keyLetter; //Otherwise return | as a default.
         }
 
     }
