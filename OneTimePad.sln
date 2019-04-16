@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAAlgorithm", "RSAAlgorith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testpad", "Testpad\Testpad.csproj", "{87D2B648-6465-4977-92A0-9767C0981E3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldKeywordTest", "YieldKeywordTest\YieldKeywordTest.csproj", "{08F65A8B-19D7-41E0-B303-4B0E93B6BD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAlgorithms", "HashingAlgorithms\HashingAlgorithms.csproj", "{53A35853-AA38-468E-9E67-F7448820CA70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{87D2B648-6465-4977-92A0-9767C0981E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87D2B648-6465-4977-92A0-9767C0981E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87D2B648-6465-4977-92A0-9767C0981E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F65A8B-19D7-41E0-B303-4B0E93B6BD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F65A8B-19D7-41E0-B303-4B0E93B6BD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F65A8B-19D7-41E0-B303-4B0E93B6BD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F65A8B-19D7-41E0-B303-4B0E93B6BD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A35853-AA38-468E-9E67-F7448820CA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A35853-AA38-468E-9E67-F7448820CA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A35853-AA38-468E-9E67-F7448820CA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A35853-AA38-468E-9E67-F7448820CA70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
