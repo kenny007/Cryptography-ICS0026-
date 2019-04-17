@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldKeywordTest", "YieldKe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAlgorithms", "HashingAlgorithms\HashingAlgorithms.csproj", "{53A35853-AA38-468E-9E67-F7448820CA70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIffieHellman", "DIffieHellman\DIffieHellman.csproj", "{39DC1753-C343-42C3-9A6B-CDC89E65EAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualCryptoSystem", "VisualCryptoSystem\VisualCryptoSystem.csproj", "{B8AEABB3-F27A-49AB-A7AF-DF7D350BD887}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{53A35853-AA38-468E-9E67-F7448820CA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A35853-AA38-468E-9E67-F7448820CA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A35853-AA38-468E-9E67-F7448820CA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DC1753-C343-42C3-9A6B-CDC89E65EAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DC1753-C343-42C3-9A6B-CDC89E65EAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DC1753-C343-42C3-9A6B-CDC89E65EAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DC1753-C343-42C3-9A6B-CDC89E65EAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AEABB3-F27A-49AB-A7AF-DF7D350BD887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AEABB3-F27A-49AB-A7AF-DF7D350BD887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AEABB3-F27A-49AB-A7AF-DF7D350BD887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AEABB3-F27A-49AB-A7AF-DF7D350BD887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
