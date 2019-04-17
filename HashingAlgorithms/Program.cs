@@ -17,21 +17,21 @@ namespace HashingAlgorithms
             Console.WriteLine($"MD5 of different words { Hasher.Md5(text[2])}");
             Console.WriteLine($"MD5 of different words { Hasher.Md5(text[3])}");
 
-            Console.WriteLine($" ---------------------------------------------------");
+            Console.WriteLine($" --------------------------------------------------- ");
 
             Console.WriteLine($"SHA1 of different words { Hasher.SHA1(text[0])}");
             Console.WriteLine($"SHA1 of different words { Hasher.SHA1(text[1])}");
             Console.WriteLine($"SHA1 of different words { Hasher.SHA1(text[2])}");
             Console.WriteLine($"SHA1 of different words { Hasher.SHA1(text[3])}");
 
-            Console.WriteLine($" ---------------------------------------------------");
+            Console.WriteLine($" --------------------------------------------------- ");
 
             Console.WriteLine($"SHA256 of different words { Hasher.SHA256(text[0])}");
             Console.WriteLine($"SHA256 of different words { Hasher.SHA256(text[1])}");
             Console.WriteLine($"SHA256 of different words { Hasher.SHA256(text[2])}");
             Console.WriteLine($"SHA256 of different words { Hasher.SHA256(text[3])}");
 
-            Console.WriteLine($" ---------------------------------------------------");
+            Console.WriteLine($" --------------------------------------------------- ");
 
             Console.WriteLine($"SHA512 of different words { Hasher.SHA512(text[0])}");
             Console.WriteLine($"SHA512 of different words { Hasher.SHA512(text[1])}");
